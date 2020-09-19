@@ -99,7 +99,7 @@ def read_data(filename, feature_cols, label_col, percent=0.2):
 
 if __name__ == '__main__':
     k_values = [1, 3, 5, 7, 9, 11, 15, 19, 25, 31, 39]
-    num = 100 # test number for each k value
+    num = 50 # test number for each k value
 
     # breast cancer wisconsin
     breast_cancer_file = 'breast-cancer-wisconsin.data'
